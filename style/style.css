@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 5.625rem;
+
+}
+
+.conteudo_principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem;
+    gap: 4.375rem;
+}
+
+.conteudo_principal_I {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem;
+    gap: 4.375rem;
+}
+
+.conteudo_principal_II {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem;
+    gap: 12.5rem;
+}
+
+.conteudo_principal_III {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem;
+    gap: 4.375rem;
+}
+
+.conteudo_principal_IV {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem;
+    gap: 4.375rem;
+}
+
+.conteudo_principal_filho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.conteudo_principal_filho_II {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.75rem;
+}
+
+.texto_titulo {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.texto_titulo_IV {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15.625rem;
+}
+
+.texto_paragrafo_I {
+    font-size: 1rem;
+}
+
+.texto_paragrafo_II {
+    font-size: 1rem;
+}
+
+.img_fundo {
+    width: 50%;
+}
+
+.img_ {
+    width: 50%;
+}
+
+.img_combo {
+    width: 40%;
+}
+
+.botão_I {
+    display: flex;
+    padding: 1rem;
+    width: 32rem;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: #167BF7;
+}
+
+.botão_II {
+    display: flex;
+    padding: 1rem;
+    width: 32rem;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #FFF;
+}
+
+.botão_III {
+    display: flex;
+    padding: 1rem;
+    width: 150px;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    background: #167BF7;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.texto_titulo_rodape {
+    font-size: 1.25rem;
+}
+
+.texto_paragrafo_rodape {
+    font-size: 0.875rem;
+}
